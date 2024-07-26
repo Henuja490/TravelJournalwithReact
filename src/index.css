@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+
+}
+nav{
+  width: inherit;
+  height:70px;
+  padding:20px 36px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 161, 161);
+  box-shadow: 0px 2.98258px 7.5px rgba(0, 0, 0, 0.1);
+  
+
+}
+.travel--logo{
+  width: 40px;
+}
+
+.Card{
+  display:flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  
+  
+}
+.card--img{
+  width: 50%;
+  height: 50%;
+  border-radius: 10px;
+  
+}
+.Icon--loc{
+  width:40px;
+}
+
+.card-location{
+  display:flex;
+  align-items: start;
+  
+}
+
+.country{
+  margin: 0px;
+}
+.grey{
+  color: grey;
+  margin-left:50px;
+}
+
+.discription{
+  margin-left: 25px;
+}
+
+.bold{
+  font-weight: bold;
+}
+.footer{
+  background-color:rgb(59, 57, 57);
+  padding:10px;
+  
+}
+
+.footer--text{
+  text-align: center;
+  color: white;
+}
